@@ -2,6 +2,7 @@
   "name": "react-pizza-v2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Poviakalo.github.io/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
     "@testing-library/jest-dom": "^5.16.4",
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "eslint-plugin-react-hooks": "^5.0.0-next-f0efa1164-20220901",
+    "gh-pages": "^4.0.0",
     "hamburger-react": "^2.5.0",
     "lodash.debounce": "^4.0.8",
     "qs": "^6.11.0",
@@ -25,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
