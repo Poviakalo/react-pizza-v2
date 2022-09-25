@@ -1,0 +1,24 @@
+.input {
+    font-size: 16px;
+    width: 300px;
+    outline: none;
+    border-radius: 0;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 10px 20px;
+    &:focus {
+        border-color: rgba($color: #000000, $alpha: 0.2);
+    }
+}
+.search {
+    position: relative;
+}
+.close {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    fill: rgba(0,0,0,0.5);
+    cursor: pointer;
+    &:hover {
+        fill:rgba(0,0,0,0.8)
+    }
+}

@@ -1,0 +1,45 @@
+.skileton {
+    // width: 280px;
+    // height: 460px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+    margin-bottom: 65px;
+    &__circle {
+        width: 240px;
+        height: 240px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        background-color: $skileton;
+    }
+    &__title {
+        background-color: $skileton;
+        width: 260px;
+        height: 35px;
+        margin-bottom: 15px;
+    }
+    &__content {
+        background-color: $skileton;
+        width: 280px;        
+        height: 85px;
+        margin-bottom: 15px;
+    }
+    &__bottom {
+        width: 280px;
+        display: flex;
+        justify-content: space-between;
+        &-price {
+            width: 45%;
+            height: 45px;
+            background-color: $skileton;
+        }
+        &-button {
+            width: 45%;
+            background-color: $skileton;
+            height: 45px;
+            border-radius: 20px;
+        }
+    }
+}
