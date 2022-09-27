@@ -11,7 +11,7 @@ function PizzaBlock ({ id, name, price, imageUrl, sizes, types }) {
 
   const addedCount = cartItem ? cartItem.count : 0;
 
-  const typeNames = ['тонка', 'традиційна', 'товста', 'жирна']; 
+  const typeNames = ['тонка', 'традиційна']; 
 
   const onClickAdd = () => {
     const item = {
