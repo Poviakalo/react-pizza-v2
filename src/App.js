@@ -22,7 +22,7 @@ function App() {
       <div className="content">        
         <Routes>
           <Route path='/react-pizza-v2' element={<Home />} />
-          <Route path='/cart' element={<Cart />} />
+          <Route path='/react-pizza-v2/cart' element={<Cart />} />
           <Route path='*' element={<Notfound />} />
         </Routes>    
       </div>

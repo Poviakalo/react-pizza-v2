@@ -26,7 +26,7 @@ function Header () {
           </Link>
           <Search />
           <div className="header__cart">
-            <Link to="/cart" className="button button--cart">
+            <Link to="/react-pizza-v2/cart" className="button button--cart">
               <span>{totalPrice} грн</span>
               <div className="button__delimiter"></div>
               <svg
