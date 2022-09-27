@@ -15,7 +15,7 @@ function Header () {
       <div className="header">
       
         <div className="container">
-          <Link to='/'>
+          <Link to='/react-pizza-v2'>
             <div className="header__logo">
               <img width="38" src={logoSvg} alt="Pizza logo" />
               <div>

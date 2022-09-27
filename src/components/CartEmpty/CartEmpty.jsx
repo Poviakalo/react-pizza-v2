@@ -10,7 +10,7 @@ function CartEmpty() {
             Для того, щоб замовити піцу, перейди на головну сторінку.
         </p>
         <img src={imageEmptyCart} alt="Empty cart" />
-        <Link to="/" className="button button--black">
+        <Link to="/react-pizza-v2" className="button button--black">
             <span>Повернутись назад</span>
         </Link>
     </div>
