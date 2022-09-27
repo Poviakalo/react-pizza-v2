@@ -1,5 +1,5 @@
 .root {
-    display: inline-flex;
+    display: flex;
     li {
         
         width: 35px;
@@ -28,5 +28,8 @@
             background-color: #fe5f1e;
             color: #fff;
         } 
+    }
+    @media (max-width: 600px) {
+        justify-content: center;
     }
 }
