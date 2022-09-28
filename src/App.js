@@ -23,7 +23,7 @@ function App() {
         <Routes>
           <Route path='/react-pizza-v2' element={<Home />} />
           <Route path='/react-pizza-v2/cart' element={<Cart />} />
-          <Route path='*' element={<Notfound />} />
+          <Route path='/react-pizza-v2/*' element={<Notfound />} />
         </Routes>    
       </div>
       </SearchContext.Provider>

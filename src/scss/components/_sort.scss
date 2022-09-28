@@ -8,6 +8,11 @@
 
     svg {
       margin-right: 8px;
+      transform: rotate(180deg);
+      transition: transform 0.3s;
+    }
+    .turn {
+      transform: rotate(0);
     }
 
     b {
@@ -49,5 +54,8 @@
         }
       }
     }
+  }
+  @media (max-width: 600px) {
+    
   }
 }

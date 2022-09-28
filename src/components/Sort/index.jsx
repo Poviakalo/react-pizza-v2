@@ -42,7 +42,8 @@ function Sort ({setActiveSort}) {
             onClick={() => changePopup()}
         >
           <div className="sort__label">
-            <svg
+            <svg 
+              className={showSortPopup ? 'turn' : ''}
               width="10"
               height="6"
               viewBox="0 0 10 6"
